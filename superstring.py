@@ -24,7 +24,7 @@ def build_contig(parts):
     return contig
 
 if __name__ == "__main__":
-    f = open("D:/net dlz/rosalind_long.txt").read().strip()
+    f = open("D:/net dlz/rosalind_test.txt").read().strip()
     m = parse_fasta(f)
     c = build_contig(m)
     print(c)
