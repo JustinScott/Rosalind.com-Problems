@@ -11,5 +11,5 @@ def freq_k(ref, k):
         print(x, end=' ')
 
 if __name__ == '__main__':
-    f =open('D:/net dlz/rosalind_1a.txt').read().splitlines()
+    f =open('D:/net dlz/dataset_2_9.txt').read().splitlines()
     freq_k(f[0], int(f[1]))

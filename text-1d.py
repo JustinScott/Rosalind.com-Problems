@@ -11,6 +11,6 @@ def clump(ref, k, L, t):
     print(' '.join([x for x in s]))
 
 if __name__ == '__main__':
-    f =open('D:/net dlz/rosalind_1d.txt').read().splitlines()
+    f =open('D:/net dlz/E-coli.txt').read().splitlines()
     l = f[1].split(' ')
     clump(f[0], int(l[0]), int(l[1]), int(l[2]))

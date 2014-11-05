@@ -4,5 +4,5 @@ def rev_comp(ref):
 
 
 if __name__ == '__main__':
-    f =open('D:/net dlz/rosalind_1b.txt').read().splitlines()
+    f =open('D:/net dlz/dataset_3_2.txt').read().splitlines()
     print(rev_comp(''.join(f[:])))
