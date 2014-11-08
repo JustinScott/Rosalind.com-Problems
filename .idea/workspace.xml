@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20cf695-929c-405e-8d45-1ced7b17df33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-1c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-1f.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-1g.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-1h.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-2a.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-2b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-2c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-2e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text-2f.py" />
       <change type="DELETED" beforePath="D:\Projects\Rosalind\corr.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sseq.py" afterPath="$PROJECT_DIR$/sseq.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text-1a.py" afterPath="$PROJECT_DIR$/text-1a.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text-1b.py" afterPath="$PROJECT_DIR$/text-1b.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text-1d.py" afterPath="$PROJECT_DIR$/text-1d.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text-2c.py" afterPath="$PROJECT_DIR$/text-2c.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rosalind.iws" />
@@ -37,56 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="text-1f.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text-1f.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-1d.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text-1d.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="374">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-1c.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text-1c.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-1b.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text-1b.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
-              <caret line="1" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text-1a.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text-1a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="text-1g.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text-1g.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text-2c.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="text-2c.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text-2c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51877934" vertical-offset="0" max-vertical-offset="852">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-2e.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text-2e.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7183099" vertical-offset="680" max-vertical-offset="1581">
+              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text-2f.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-2f.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +128,8 @@
         <option value="$PROJECT_DIR$/text-2a.py" />
         <option value="$PROJECT_DIR$/text-2b.py" />
         <option value="$PROJECT_DIR$/text-2c.py" />
+        <option value="$PROJECT_DIR$/text-2f.py" />
+        <option value="$PROJECT_DIR$/text-2e.py" />
       </list>
     </option>
   </component>
@@ -198,6 +163,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,7 +184,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,27 +200,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.text-2c">
-    <configuration default="false" name="text-1g" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Rosalind" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-1g.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.text-2e">
     <configuration default="false" name="text-1h" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,6 +272,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Rosalind" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-2c.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="text-2e" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rosalind" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-2e.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -456,19 +421,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.text-1g" />
-      <item index="1" class="java.lang.String" itemvalue="Python.text-1h" />
-      <item index="2" class="java.lang.String" itemvalue="Python.text-2a" />
-      <item index="3" class="java.lang.String" itemvalue="Python.text-2b" />
-      <item index="4" class="java.lang.String" itemvalue="Python.text-2c" />
+      <item index="0" class="java.lang.String" itemvalue="Python.text-1h" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text-2a" />
+      <item index="2" class="java.lang.String" itemvalue="Python.text-2b" />
+      <item index="3" class="java.lang.String" itemvalue="Python.text-2c" />
+      <item index="4" class="java.lang.String" itemvalue="Python.text-2e" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.text-2c" />
-        <item index="1" class="java.lang.String" itemvalue="Python.text-2b" />
-        <item index="2" class="java.lang.String" itemvalue="Python.text-2a" />
-        <item index="3" class="java.lang.String" itemvalue="Python.text-1h" />
-        <item index="4" class="java.lang.String" itemvalue="Python.text-1g" />
+        <item index="0" class="java.lang.String" itemvalue="Python.text-2e" />
+        <item index="1" class="java.lang.String" itemvalue="Python.text-2c" />
+        <item index="2" class="java.lang.String" itemvalue="Python.text-2b" />
+        <item index="3" class="java.lang.String" itemvalue="Python.text-2a" />
+        <item index="4" class="java.lang.String" itemvalue="Python.text-1h" />
       </list>
     </recent_temporary>
   </component>
@@ -509,12 +474,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -555,34 +520,10 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text-1c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text-1b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
-          <caret line="1" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text-1a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text-1g.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1309">
@@ -755,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcsm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lgis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -819,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python/Lib/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
@@ -879,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text-1h.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7784711" vertical-offset="56" max-vertical-offset="1530">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text-1a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -934,8 +854,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/text-2c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51877934" vertical-offset="0" max-vertical-offset="852">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_breakpoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="3400">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7382629" vertical-offset="0" max-vertical-offset="852">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lcsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="852">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-1h.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44131455" vertical-offset="678" max-vertical-offset="1530">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-2f.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="852">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-2e.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7183099" vertical-offset="680" max-vertical-offset="1581">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding />
         </state>
       </provider>

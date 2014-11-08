@@ -33,6 +33,7 @@ if __name__ == '__main__':
     mm = mol_mass(sseq)            #calc weights for each subsequence
     mm.sort()
 
+    #mm now contains the theoretical spectrum for the peptide 'ref'
     for weight in mm:
         print(weight, end=' ')
 
