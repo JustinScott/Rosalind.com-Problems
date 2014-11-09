@@ -1,3 +1,5 @@
+from collections import Counter
+
 AA_DA_MAP = {
     'G': 21,  'A': 71,  'S': 87,  'P': 97,
     'V': 99,  'T': 101, 'C': 103, 'I': 113,
@@ -42,12 +44,8 @@ def cyclopeptide_sequence():
     return match_list
 
 
-def branch(slist):
-    extended_list = []
-    for peptide in slist:
-        for aa in AA_DA_MAP.keys():
-            extended_list.append(''.join([peptide, aa]))
-    return extended_list
+def branch(peptides):
+    return [peptide + aa for peptide in peptides for aa in AA_DA_MAP.keys()]
 
 
 def bound(slist, match_list):
@@ -61,26 +59,13 @@ def bound(slist, match_list):
 
 
 def consistent(peptide):
-    experimental_spectrum = list(spectrum) #make a copy so it can be modified
-    t_spectrum = theoretical_spectrum(peptide)
-    for mass in t_spectrum:
-        if mass in experimental_spectrum:
-            #removing it to ensure that duplicate values are matched correctly
-            experimental_spectrum.remove(mass)
-        else:
-            # mass not found, break and return false
-            break
-    else:
-        # loop fell through, so all masses were in spectrum
-        return True
-
-    return False
+    return not bool(Counter(theoretical_spectrum(peptide)) - Counter(experimental_spectrum))
 
 
 if __name__ == '__main__':
-    spectrum = open("D:/net dlz/rosalind_2e.txt").read().rstrip('\n')
-    spectrum = [int(n) for n in spectrum.split(' ')]
-    parent_mass = max(spectrum)
+    experimental_spectrum = open("D:/net dlz/rosalind_2e.txt").read().rstrip('\n')
+    experimental_spectrum = [int(n) for n in experimental_spectrum.split(' ')]
+    parent_mass = max(experimental_spectrum)
     match = cyclopeptide_sequence()
     weights = peptides_to_amino_weights(match)
 
