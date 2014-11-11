@@ -37,7 +37,7 @@ def cyclopeptide_sequence(N):
     leader_peptide = ''
     while len(slist) > 0:
         slist = branch(slist)
-        bound(slist, leader_peptide)
+        leader_peptide = bound(slist, leader_peptide)
         slist = cut(slist, N)
     return leader_peptide
 
@@ -53,32 +53,34 @@ def bound(slist, leader_peptide):
                 leader_peptide = peptide
         elif peptide_mass(peptide) > parent_mass:
             slist.remove(peptide)
+    return leader_peptide
 
 
 def cut(slist, N):
-    cutoff_map = {}
-    for peptide in slist:
-        cutoff_map[peptide] = score(peptide)
-    t = sorted(cutoff_map.items(), key=itemgetter(1), reverse=True)[:N]
-    cutoff_map = dict(t)
-    return cutoff_map.keys()
+    if len(slist) < 1 or len(slist) < N:
+        return slist
+
+    cutoff_map = {peptide: score(peptide) for peptide in slist}
+    sorted_tuples = sorted(cutoff_map.items(), key=itemgetter(1), reverse=True)
+    #we need 'dupe' to find Nth place competitors
+    dupe = sorted_tuples[N-1][1]
+    t_cutoff = [tup[0] for tup in sorted_tuples if tup[1] >= dupe]
+    return t_cutoff
 
 
 def score(peptide):
     t = Counter(theoretical_spectrum(peptide))
     e = Counter(experimental_spectrum)
     c = t - e
-    return spectrum_score - sum(c.keys())
+    return sum(t.values()) - sum(c.values())
 
 
 if __name__ == '__main__':
-    data = open("D:/net dlz/rosalind_test.txt").read().split('\n')
+    data = open("D:/net dlz/rosalind_2f.txt").read().split('\n')
     experimental_spectrum = [int(n) for n in data[1].rstrip().split(' ')]
     N = int(data[0])
     parent_mass = max(experimental_spectrum)
     spectrum_score = len(experimental_spectrum)
     match = cyclopeptide_sequence(N)
     weights = peptide_to_amino_weights(match)
-
-    for weight in weights:
-        print(weight, end=' ')
+    print(weights)
